@@ -1,0 +1,27 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #000;
+}
+
+.hero {
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #fff;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #458692;
+    transition: all 0.2s ease-in;
+}
